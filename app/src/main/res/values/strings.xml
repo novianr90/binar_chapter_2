@@ -9,4 +9,11 @@
     <string name="txt_gopulsa">GoPulsa</string>
     <string name="txt_check_in">Check in</string>
     <string name="txt_lainnya">Lainnya</string>
+    <string name="txt_gopay">gopay</string>
+    <string name="txt_money">Rp1.xxxx</string>
+    <string name="txt_msg_money"><![CDATA[Klik & cek riwayat]]></string>
+    <string name="btn_to_gojek">Ke Gojek</string>
+    <string name="txt_pay">Bayar</string>
+    <string name="txt_top_up">Isi saldo</string>
+    <string name="txt_explore">Eksplor</string>
 </resources>

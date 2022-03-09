@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+  <path
+      android:fillColor="@color/cadet_blue"
+      android:pathData="M24.666,57.12L64,17.787"
+      android:strokeWidth="12"
+      android:strokeColor="@color/cadet_blue"
+      android:strokeLineCap="square" />
+  <path
+      android:fillColor="@color/cadet_blue"
+      android:pathData="M64,17.787L103.334,57.12"
+      android:strokeWidth="12"
+      android:strokeColor="@color/cadet_blue"
+      android:strokeLineCap="square" />
+  <path
+      android:fillColor="@color/cadet_blue"
+      android:pathData="M64,17.787L64,118.213"
+      android:strokeWidth="12"
+      android:strokeColor="@color/cadet_blue" />
+</vector>

@@ -5,15 +5,19 @@
       <map>
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/background_msg.xml" value="0.211" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/background_profile.xml" value="0.211" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_gainsboro.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_grid_blue.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_grid_circle.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_grid_green.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_grid_red.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_top.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_top_2.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_white.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/circle.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/go_ride.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__explore.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__profile.xml" value="0.211" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_arrowup.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_checkin.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_four_dots.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_gocar.xml" value="0.231" />
@@ -23,10 +27,18 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_goride.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_gosend.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_search.xml" value="0.1045" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_top_up.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_uparrow.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_wallet.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/profile.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/rectangle.xml" value="0.211" />
-        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/activity_main.xml" value="0.3880070546737213" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/activity_main.xml" value="0.4074074074074074" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/bot_of_top_gojek.xml" value="0.30407911001236093" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/go_ride.xml" value="0.22447916666666667" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/gojek_grid.xml" value="0.33" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/gopay_banner.xml" value="0.2" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/top_gojek.xml" value="0.4074074074074074" />
       </map>
     </option>
   </component>
