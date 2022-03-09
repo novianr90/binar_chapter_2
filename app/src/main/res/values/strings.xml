@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Challenge2</string>
     <string name="msg_search"><![CDATA[Cari layanan, makanan, & tujuan]]></string>
+    <string name="txt_goride">GoRide</string>
+    <string name="txt_gocar">GoCar</string>
+    <string name="gofood">GoFood</string>
+    <string name="txt_gosend">GoSend</string>
+    <string name="txt_gomart">GoMart</string>
+    <string name="txt_gopulsa">GoPulsa</string>
+    <string name="txt_check_in">Check in</string>
+    <string name="txt_lainnya">Lainnya</string>
 </resources>
