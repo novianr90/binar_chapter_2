@@ -6,12 +6,16 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/background_msg.xml" value="0.211" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/background_profile.xml" value="0.211" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_top.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_top_2.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/circle.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/go_ride.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__profile.xml" value="0.211" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_goride.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_search.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/profile.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/rectangle.xml" value="0.211" />
-        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/activity_main.xml" value="0.2564841498559078" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/go_ride.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
