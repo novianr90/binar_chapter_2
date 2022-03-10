@@ -33,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/grid_view" />
 
     <TextView
+        android:id="@+id/txt_quick_access"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -43,6 +44,15 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/exp_banner" />
+
+    <include
+        layout="@layout/quick_access_gojek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_quick_access" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
