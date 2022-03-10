@@ -9,10 +9,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#808080</color>
     <color name="islamic_green">#00AA13</color>
-    <color name="cadet_blue">#5F9EA0</color>
+    <color name="cadet_blue">#00AED6</color>
     <color name="green_youth">#bae88c</color>
-    <color name="red_youth">#F7AD9D</color>
-    <color name="electric_blue">#7DF9FF</color>
+    <color name="red_youth">#EE2737</color>
+    <color name="electric_blue">#00AED6</color>
     <color name="gray_light">#C5C5C5</color>
     <color name="gainsboro">#DCDCDC</color>
+    <color name="orange_35">#66F06400</color>
 </resources>

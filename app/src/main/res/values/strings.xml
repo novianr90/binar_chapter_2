@@ -16,4 +16,7 @@
     <string name="txt_pay">Bayar</string>
     <string name="txt_top_up">Isi saldo</string>
     <string name="txt_explore">Eksplor</string>
+    <string name="txt_exp_banner">193 XP lagi ada Harta Karun</string>
+    <string name="txt_xp_banner">Harta Karun bentar lagi hilang</string>
+    <string name="txt_quick_access">Akses cepat</string>
 </resources>
