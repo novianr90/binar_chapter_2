@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         openActivityGojek()
+        openActivityTokopedia()
     }
 
     private fun openActivityGojek() {
@@ -18,6 +19,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, GojekActivity::class.java)
             startActivity(intent)
         }
+    }
+
+    private fun openActivityTokopedia() {
+        val buttonTokopedia = findViewById<Button>(R.id.buttonTokopedia)
+        buttonTokopedia.setOnClickListener {
+            val intent = Intent(this, TokopediaActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }

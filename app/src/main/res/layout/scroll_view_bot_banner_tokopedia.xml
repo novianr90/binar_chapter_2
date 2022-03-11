@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/peduli_lind"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ic_checkin_blue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_peduli_lind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="-7dp"
+                android:text="Peduli\nlindungi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/peduli_lind" />
+
+            <ImageView
+                android:id="@+id/bazar"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/ic__bazaar"
+                app:layout_constraintStart_toEndOf="@id/txt_peduli_lind"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_bazar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="Bazar\nHari Ini"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@id/txt_peduli_lind"
+                app:layout_constraintTop_toBottomOf="@id/bazar" />
+
+            <ImageView
+                android:id="@+id/love"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/ic__love"
+                app:layout_constraintStart_toEndOf="@id/txt_bazar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_lokal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="2dp"
+                android:text="Bangga \nLokal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@id/txt_bazar"
+                app:layout_constraintTop_toBottomOf="@id/love" />
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/ic_play"
+                app:layout_constraintStart_toEndOf="@id/txt_lokal"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="1dp"
+                android:text="Live \nShopping"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@id/txt_lokal"
+                app:layout_constraintTop_toBottomOf="@id/play" />
+
+            <ImageView
+                android:id="@+id/console"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/ic__games"
+                app:layout_constraintStart_toEndOf="@id/txt_play"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_console"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Tokopedia\nSeru"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@id/txt_play"
+                app:layout_constraintTop_toBottomOf="@id/console" />
+
+            <ImageView
+                android:id="@+id/cod"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/ic__cod"
+                app:layout_constraintStart_toEndOf="@id/txt_console"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="2dp"
+                android:text="Bayar di\nTempat"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@id/txt_console"
+                app:layout_constraintTop_toBottomOf="@id/cod" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

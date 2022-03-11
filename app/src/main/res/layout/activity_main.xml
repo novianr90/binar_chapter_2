@@ -7,51 +7,99 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <include
-        android:id="@+id/top_gojek"
+    <ScrollView
+        android:id="@+id/home_gojek"
         android:layout_width="match_parent"
-        layout="@layout/top_gojek"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <include
-        android:id="@+id/grid_view"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/top_gojek"
+                layout="@layout/top_gojek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/grid_view"
+                layout="@layout/gojek_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/top_gojek" />
+
+            <include
+                android:id="@+id/exp_banner"
+                layout="@layout/exp_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/grid_view" />
+
+            <TextView
+                android:id="@+id/txt_quick_access"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/txt_quick_access"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exp_banner" />
+
+            <include
+                android:id="@+id/include"
+                layout="@layout/quick_access_gojek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_quick_access" />
+
+            <include
+                android:id="@+id/banner_product"
+                layout="@layout/product_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include" />
+
+            <include
+                android:id="@+id/banner_product2"
+                layout="@layout/product_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner_product" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        layout="@layout/gojek_grid"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/top_gojek" />
-
-    <include
-        android:id="@+id/exp_banner"
-        layout="@layout/exp_banner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/grid_view" />
-
-    <TextView
-        android:id="@+id/txt_quick_access"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="5dp"
-        android:text="@string/txt_quick_access"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/exp_banner" />
-
-    <include
-        layout="@layout/quick_access_gojek"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_quick_access" />
+        app:menu="@menu/bottom_navigation_gojek" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/tokped_os"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/bg_purple"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_checked"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/txt_os"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:text="Official Store"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tokped_os" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/tokped_others"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toEndOf="@id/txt_os"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_dots_tokped" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/txt_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Lihat semua"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/txt_os"
+                app:layout_constraintTop_toBottomOf="@id/tokped_others" />
+
+            <ImageView
+                android:id="@+id/tokped_daily"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ic_gomart_tokped"
+                app:layout_constraintStart_toEndOf="@id/txt_others"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Kebutuhan \n harian"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/txt_others"
+                app:layout_constraintTop_toBottomOf="@id/tokped_daily" />
+
+            <ImageView
+                android:id="@+id/tokped_electronic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ic__tokped_electronic"
+                app:layout_constraintStart_toEndOf="@id/txt_daily"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_electronic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Elektronik"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/txt_daily"
+                app:layout_constraintTop_toBottomOf="@id/tokped_electronic" />
+
+            <ImageView
+                android:id="@+id/tokped_office"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_office_stationery"
+                app:layout_constraintStart_toEndOf="@id/txt_electronic"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_office"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Office &amp; Stationery"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@id/txt_electronic"
+                app:layout_constraintTop_toBottomOf="@id/tokped_office" />
+
+            <ImageView
+                android:id="@+id/tokped_money"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ic_money_tokped"
+                app:layout_constraintStart_toEndOf="@id/txt_office"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="Keuangan"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@id/txt_office"
+                app:layout_constraintTop_toBottomOf="@id/tokped_money" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
