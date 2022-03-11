@@ -63,6 +63,40 @@
             app:layout_constraintTop_toBottomOf="@id/banner_tokopedia" />
 
 
+        <TextView
+            android:id="@+id/txt_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Video Menarik Untukmu"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scroll_banner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:text="Lihat semua"
+            android:textColor="@color/green_toko"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scroll_banner" />
+
+        <include
+            android:id="@+id/video_main"
+            layout="@layout/scroll_video_tokopedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_video" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
 
