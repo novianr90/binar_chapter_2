@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu>
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/Feed"
+        android:enabled="true"
+        android:icon="@drawable/ic_feed"
+        android:title="Promo" />
+    <item
+        android:id="@+id/OS"
+        android:enabled="true"
+        android:icon="@drawable/ic_os"
+        android:title="Official Store" />
+    <item
+        android:id="@+id/wishlist"
+        android:enabled="true"
+        android:icon="@drawable/ic__love_gray"
+        android:title="Wishlist" />
+    <item
+        android:id="@+id/transaksi"
+        android:enabled="true"
+        android:icon="@drawable/ic__assignment"
+        android:title="Transaksi" />
 </menu>
