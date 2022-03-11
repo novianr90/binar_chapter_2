@@ -47,7 +47,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="25dp"
                         android:layout_marginTop="110dp"
-                        android:gravity="bottom"
                         android:text="Rp 1.xxxx"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
@@ -60,13 +59,39 @@
                         android:background="@drawable/bg_solid_red"
                         android:text="57%"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="@color/white"
                         android:textSize="11sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="140dp"
+                        android:text="@string/price_1st"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar2"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="160dp"
+                        android:progress="70"
+                        android:theme="@style/ProgressBarStyle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="175dp"
+                        android:text="Segera habis"
+                        android:textColor="@color/black" />
+
                 </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
-
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/video_2"
                 android:layout_width="wrap_content"
@@ -87,27 +112,63 @@
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="150dp"
+                        android:layout_height="100dp"
                         android:layout_marginStart="25dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="25dp"
-                        android:src="@drawable/ic_play_black" />
+                        android:src="@drawable/ic_lipstick_green" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="38dp"
-                        android:layout_marginTop="160dp"
-                        android:gravity="bottom"
-                        android:text="Ini Video"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="110dp"
+                        android:text="Rp 1.xxxx"
                         android:textColor="@color/black"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="140dp"
+                        android:background="@drawable/bg_solid_red"
+                        android:text="90%"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="140dp"
+                        android:text="@string/price_1st"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="160dp"
+                        android:progress="70"
+                        android:theme="@style/ProgressBarStyle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="175dp"
+                        android:text="Segera habis"
+                        android:textColor="@color/black" />
 
                 </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
-            \
-
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/video_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
@@ -126,24 +187,63 @@
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="150dp"
+                        android:layout_height="100dp"
                         android:layout_marginStart="25dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="25dp"
-                        android:src="@drawable/ic_play_black" />
+                        android:src="@drawable/ic__pants_tokped" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="38dp"
-                        android:layout_marginTop="160dp"
-                        android:gravity="bottom"
-                        android:text="Ini Video"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="110dp"
+                        android:text="Rp 1.xxxx"
                         android:textColor="@color/black"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="140dp"
+                        android:background="@drawable/bg_solid_red"
+                        android:text="57%"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="140dp"
+                        android:text="@string/price_1st"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="160dp"
+                        android:progress="70"
+                        android:theme="@style/ProgressBarStyle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="175dp"
+                        android:text="Segera habis"
+                        android:textColor="@color/black" />
 
                 </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </HorizontalScrollView>

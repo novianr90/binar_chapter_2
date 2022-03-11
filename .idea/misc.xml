@@ -62,6 +62,7 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_home.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_hourglass.xml" value="0.1995" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_lipstick.xml" value="0.1045" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_lipstick_green.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_location.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_money_tokped.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_msg_toko.xml" value="0.231" />
@@ -97,7 +98,7 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/product_banner.xml" value="0.5100286532951289" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/quick_access_gojek.xml" value="0.3468085106382979" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_banner_tokopedia.xml" value="0.5753803596127247" />
-        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_product_tokopedia.xml" value="0.67" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_product_tokopedia.xml" value="0.4114942528735632" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_video_tokopedia.xml" value="0.22" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_view_bot_banner_tokopedia.xml" value="0.41794871794871796" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/top_gojek.xml" value="0.3704545454545455" />

@@ -24,4 +24,5 @@
     <string name="txt_cashback">Belanja Produk Kecantikan di Tokopedia lebih hemat pake GoPay</string>
     <string name="txt_tokped">tokopedia</string>
     <string name="txt_cantikfest_banner">Temukan kebutuhan cantik-mu hemat pakai GoPay dengan cashback 50%. Klik! 👈</string>
+    <string name="price_1st"><strike>Rp 1xx.xxxx</strike></string>
 </resources>
