@@ -26,7 +26,11 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/bg_white.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/circle.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/go_ride.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__bazaar.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__cod.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__explore.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__games.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__love.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__pants_tokped.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__profile.xml" value="0.211" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic__tokped_electronic.xml" value="0.231" />
@@ -36,6 +40,7 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_chat.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_checked.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_checkin.xml" value="0.231" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_checkin_blue.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_choice.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_discount.xml" value="0.1995" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_discount_gray.xml" value="0.1045" />
@@ -62,6 +67,7 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_office_stationery.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_order.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_paylater.xml" value="0.1045" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_play.xml" value="0.231" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_search.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_search_toped.xml" value="0.1045" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/drawable/ic_star.xml" value="0.231" />
@@ -89,6 +95,7 @@
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/product_banner.xml" value="0.5100286532951289" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/quick_access_gojek.xml" value="0.4712950600801068" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_banner_tokopedia.xml" value="0.5753803596127247" />
+        <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/scroll_view_bot_banner_tokopedia.xml" value="0.41794871794871796" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/top_gojek.xml" value="0.4074074074074074" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/layout/top_tokopedia.xml" value="0.3537037037037037" />
         <entry key="..\:/BinarAndroidDeveloper/app/src/main/res/menu/bottom_navigation_gojek.xml" value="0.22447916666666667" />

@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
            android:layout_marginTop="15dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/info_money"/>
+            app:layout_constraintTop_toBottomOf="@id/info_money" />
 
         <include
             android:id="@+id/banner_tokopedia"
@@ -52,6 +52,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/grid_tokopedia" />
+
+        <include
+            android:id="@+id/scroll_banner"
+            layout="@layout/scroll_view_bot_banner_tokopedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/banner_tokopedia" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
