@@ -101,5 +101,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation_gojek" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
